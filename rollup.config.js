@@ -21,7 +21,7 @@ export default {
   ],
   plugins: [
     cleaner({
-      targets: ['./lib'],
+      targets: ['./dist/lib'],
     }),
     peerDepsExternal(),
     resolve(),
