@@ -59,6 +59,6 @@
     "release": "yarn build && changeset publish"
   },
   "files": [
-    "./dist/lib"
+    "dist"
   ]
 }
