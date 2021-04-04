@@ -1,6 +1,6 @@
 {
   "name": "makeup-ui",
-  "version": "1.1.20",
+  "version": "1.1.21",
   "main": "index.js",
   "module": "lib/index.esm.js",
   "author": "aaronshivers <42848750+aaronshivers@users.noreply.github.com>",
@@ -59,6 +59,7 @@
     "release": "yarn build && changeset publish"
   },
   "files": [
+    "dist",
     "dist/lib"
   ]
 }
