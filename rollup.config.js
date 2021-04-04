@@ -9,19 +9,14 @@ export default {
   input: 'src/index.ts',
   output: [
     {
-      file: `./dist/${packageJson.main}`,
+      file: packageJson.main,
       format: 'cjs',
-      sourcemap: true,
-    },
-    {
-      file: `./dist/${packageJson.module}`,
-      format: 'esm',
       sourcemap: true,
     },
   ],
   plugins: [
     cleaner({
-      targets: ['./dist/lib'],
+      targets: ['./lib'],
     }),
     peerDepsExternal(),
     resolve(),
