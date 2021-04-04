@@ -22,7 +22,7 @@ export const Button = ({
     cursor: 'pointer',
     display: 'inline-block',
     lineHeight: 1,
-    backgroundColor: primary ? '#25ebe1' : backgroundColor,
+    backgroundColor: primary ? '#eb2525' : backgroundColor,
     color: primary ? '#F3F4F6' : color,
   };
   return (
