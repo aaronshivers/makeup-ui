@@ -1,6 +1,5 @@
 import * as React from 'react';
-import { Meta, Story } from '@storybook/react';
-import { Button, ButtonProps } from './Button';
+import Button from './Button';
 
 export default {
   title: 'Button',
@@ -11,10 +10,10 @@ export default {
     color: { control: 'color' },
     primary: { control: 'boolean' },
   },
-} as Meta;
+};
 
 // 👇 We create a “template” of how args map to rendering
-const Template: Story<ButtonProps> = (args: ButtonProps) => (
+const Template = (args) => (
   <Button {...args}>
     Click me
   </Button>

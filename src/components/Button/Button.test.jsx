@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { render, fireEvent, screen } from '@testing-library/react';
-import { Button } from './Button';
+import Button from './Button';
 
 describe('Button', () => {
   test('renders a default button with text', async () => {

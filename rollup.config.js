@@ -21,8 +21,5 @@ export default {
     peerDepsExternal(),
     resolve(),
     commonjs(),
-    typescript({
-      exclude: ['**/*.stories.tsx', '**/*.test.tsx'],
-    }),
   ],
 };
