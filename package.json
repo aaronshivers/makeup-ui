@@ -1,6 +1,6 @@
 {
   "name": "makeup-ui",
-  "version": "1.1.26",
+  "version": "1.1.27",
   "main": "lib/index.js",
   "module": "lib/index.esm.js",
   "author": "aaronshivers <42848750+aaronshivers@users.noreply.github.com>",
